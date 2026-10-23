@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-around;
+}
+.header-container .logo {
+  width: 140px;
+}
+.header-container .header-nav {
+  display: flex;
+  gap: 40px;
+}
+.header-container .header-nav a {
+  color: #ADBDD5;
+  margin: 0;
+}
+.header-container .header-nav a:hover {
+  color: #3a8ef6;
+}
+.header-container .button {
+  padding: 16px 28px;
+  background: linear-gradient(90deg, #3a8ef6 0%, #6f3afa 100%);
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+}
+
+.div_class_p {
+  color: green;
+}
+
+.Lorem {
+  color: gray;
+}
+
+.Book {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 28px;
+  background: linear-gradient(90deg, #3a8ef6 0%, #6f3afa 100%);
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+}
+
+.hero-text-box {
+  margin-left: 72px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.div_classBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.button_class {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 28px;
+  background: linear-gradient(90deg, #3a8ef6 0%, #6f3afa 100%);
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+}
+
+.div_h1 {
+  margin-left: 380px;
+  color: white;
+}
+
+.p {
+  color: white;
+  margin-left: 500px;
+}/*# sourceMappingURL=style.css.map */
